@@ -1,0 +1,207 @@
+/* info
+Style guide
+
+Font:  Raleway
+Font color: #808080
+Menu bar color: #006600
+Button color: #ffffff
+
+*/
+
+/* General */
+
+body {
+  margin-top: 20px;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  color: #808080;
+  font-size: 16px;
+  background: url('../img/tile.jpg') top left repeat;
+  position: relative;
+}
+
+/*  Global */
+
+h1, h2, h3, h4, h5, h6 p {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-weight: bold;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* first */
+
+.first .container {
+  height: 150px;
+  padding: 20px;
+}
+
+.top {
+  border-top: 1px solid teal;
+  border-bottom: 1px solid teal;
+  /* height: 90px; */
+}
+
+.top p {
+  text-align: center;
+  align-self: center;
+  padding-top: 10px;
+}
+
+.topimg img {
+  transform: translateY(-30%);
+}
+
+/* hero */
+
+.jumbotron {
+  background: url("/Assets/img/riverside_inn.jpg") no-repeat center center; 
+  background-size: cover;
+  height: 300px;
+  margin-bottom: 0;
+}
+
+/* nav */
+
+.navbar {
+  margin-top: 0;
+}
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+
+.navbar-nav li {
+  float: none;
+  display: inline-block;
+  padding: 15px;
+}
+
+.menubutton {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav li {
+    display: block;
+  }
+}
+
+/* content */ 
+
+.content img {
+  border-radius: 50%;
+}
+
+.content .row {
+  padding: 20px;
+}
+
+.content h3 {
+  padding: 10px;
+}
+
+/* modal */
+
+.modal * {
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+}
+
+.modal-content {
+  border-top: 8px solid green;
+  border-bottom: 8px solid green;
+}
+
+.closemodal {
+  color: #808080;
+  cursor: pointer;
+}
+
+.modal-body {
+  border-top: 2px solid green;
+}
+
+/* special */
+
+.special {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #fff;
+}
+
+.special .container {
+  padding: 20px;
+}
+
+.special .col-md-6:nth-of-type(2) {
+  padding-top: 90px;
+}
+
+.special h3, p { 
+  padding: 5px;
+}
+
+.special p {
+  text-align: center;
+}
+
+.special h3 {
+  border-bottom: 1px solid teal;
+  text-align: center;
+}
+
+/* form */
+
+.form {
+  padding-bottom: 25px;
+}
+
+.row h5 {
+  padding: 20px;
+  text-align: center;
+}
+
+/* footer */
+
+.footer .container {
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+
+.footer .row {
+  height: 100%;
+}
+
+.footer .navbar {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer .navbar-nav {
+  width: 100%;
+  padding: 10px;
+  text-align: unset;
+}
+
+.footer .navbar-nav li {
+  padding: unset;
+  height: 100%;
+}
+
+.navbar-right {
+  position: absolute;
+  right: 5%;
+  top: 19%;
+}
+
+@media (max-width: 768px) {
+  .navbar-right {
+    position: unset;
+  }
+}
