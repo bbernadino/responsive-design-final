@@ -57,7 +57,7 @@ h3 {
 /* hero */
 
 .jumbotron {
-  background: url("/Assets/img/riverside_inn.jpg") no-repeat center center; 
+  background: url('../img/riverside_inn.jpg') no-repeat center center; 
   background-size: cover;
   height: 300px;
   margin-bottom: 0;
